@@ -73,7 +73,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: kiii-postgres-svc
+  name: pg-service
   namespace: kiii-project
 spec:
   selector:
